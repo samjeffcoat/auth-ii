@@ -1,4 +1,5 @@
-{"name": "auth-ii",
+{
+  "name": "auth-ii",
   "version": "1.0.0",
   "description": "Adding Autherntication to an api using JSON web tokens",
   "main": "index.js",
@@ -7,7 +8,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "bcrypt": "^3.0.4",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
