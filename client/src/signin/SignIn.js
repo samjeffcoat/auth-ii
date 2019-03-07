@@ -39,7 +39,7 @@ export default class SignIn extends Component {
   };
   handleSubmit = e => {
     e.preventDefault();
-    const endpoint = "http://localhost:5555/api/auth/signin";
+    const endpoint = "http://localhost:5555/api/auth/login";
     axios
       .post(endpoint, this.state)
       .then(res => {
